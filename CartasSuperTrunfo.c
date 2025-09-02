@@ -1,39 +1,39 @@
 #include <stdio.h>
 
 int main (){
-    printf("Desafio Super trunfo - Países!\n");
+    printf("Desafio Super trunfo - Paises!\n");
     
-    int Codigo;
-    char Nome;
-    int população;
+    int Codigo da cidade;
+    char Nome [~50];
+    int populacao;
     float area;
     float PIB;
-    int pontos, turisticos;
+    int pontos turisticos;
 
-    printf("Qual o codigo da cidade/n");
-    scanf("%d", &codigo);
+    printf("Qual o Codigo da cidade/n");
+    scanf("%d", &Codigo);
 
     printf ("Qual o nome da cidade?\n");
-    scanf("%s", &cidade);
+    scanf("%s", cidade);
 
     printf ("Qual a população da cidade?\n");
     scanf("%d", &população);
 
     printf("Qual a área da cidade?\n");
-    scanf("%f", &área);
+    scanf("%2f", &área);
 
     printf(" Qual o PIB da cidade?\n");
-    scanf("%f", &PIB)
+    scanf("%2f", &PIB);
 
-    printf(" Qual o número de pontos turísticos da cidade?\n");
-    scanf("%d", &pontos,turísticos);
+    printf(" Qual o número de pontos turisticos da cidade?\n");
+    scanf("%d", &turisticos);
 
-    printf("código da cidade: %d\n", código);
+    printf("Codigo da cidade: %d\n", Codigo);
     printf("Nome da cidade: %s\n", Nome);
-    printf("População da cidade: %d\n", população);
+    printf("População da cidade: %d\n", populacao);
     printf("Area da cidade: %2f\n", área);
     printf("PIB da cidade: %2f\n", PIB);
-    printf("Número de pontos turísticos da cidade: %d\n", pontos,turísticos);
+    printf("Número de pontos turísticos da cidade: %d\n", pontos turisticos);
 return 0;    
 
 
