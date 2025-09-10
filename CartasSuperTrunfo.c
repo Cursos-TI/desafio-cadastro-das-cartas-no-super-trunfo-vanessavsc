@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main (){
-    printf("Desafio Super Trunfo - Países!\n");
-    
+    printf("Desafio Super Trunfo - Países!\n");  //titulo do jogo 
+    // declaro as variáveis 
     int Codigo;
     char cidade[50];
     int populacao;
     float area;
     float PIB;
     int turisticos;
-
+// Entrada dos dados no jogo 
     printf("Qual o código da cidade?\n");
     scanf("%d", &Codigo);
 
